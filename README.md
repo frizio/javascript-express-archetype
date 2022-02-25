@@ -1,6 +1,8 @@
-# Archetype for Basic Web Server with javascript + Express (CommonJS version)
+# Artifact for Basic Web Server with javascript + Express (CommonJS modules version)
 
 Use require("...") instructions
+
+## [CommonJS vs. ES modules in Node.js](https://blog.logrocket.com/commonjs-vs-es-modules-node-js/)
 
 ## Install Dependencies
 
