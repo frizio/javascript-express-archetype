@@ -1,9 +1,10 @@
 {
-  "name": "javascript-express-artifact",
-  "version": "1.0.0",
-  "description": "Demo Web Application in Javascrip",
-  "main": "index.js",
+  "name": "artifact-javascript-express-commonjs",
+  "version": "1.1.0",
+  "description": "Demo Web Application in Javascript (CommonJS)",
+  "main": "src/index.js",
   "scripts": {
+    "start": "node src/index.js",
     "dev": "nodemon src/"
   },
   "keywords": [],
