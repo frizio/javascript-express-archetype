@@ -41,3 +41,13 @@ docker run -it -e PORT=5000 -p 5001:5000 demo-node-16
 docker-compose up --build
 docker-compose down --rmi all
 ```
+
+## Nodemon reload in docker windows
+
+[link](https://errorsfixing.com/nodemon-doesnt-restart-in-windows-docker-environment/)
+
+```json
+"scripts": {
+  "dev-docker-win": "nodemon src/ --legacy-watch"
+}
+```

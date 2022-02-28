@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "dev": "nodemon src/"
+    "dev": "nodemon src/",
+    "dev-docker-win": "nodemon src/ --legacy-watch"
   },
   "keywords": [],
   "author": "",

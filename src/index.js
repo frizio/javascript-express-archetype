@@ -14,7 +14,7 @@ app.use(cors());
 // app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.send('<h1>Demo Express API</h1>');
+  res.send('<h1>Demo Express API!</h1>');
 });
 
 app.get('/api', (req, res) => {
@@ -23,4 +23,4 @@ app.get('/api', (req, res) => {
 
 app.listen(PORT);
 
-console.log("server listen on port", PORT);
+console.log("Server listen on internal port", PORT);
