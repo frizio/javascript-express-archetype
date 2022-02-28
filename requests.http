@@ -1,2 +1,5 @@
-### Get all chracters
+### Get Home
 GET http://localhost:3000
+
+### Get Api
+GET http://localhost:3000/api

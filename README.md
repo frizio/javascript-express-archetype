@@ -15,3 +15,23 @@ npm i express morgan cors response-time dotenv
 ```bash
 npm i -D nodemon
 ```
+
+## Create docker images
+
+- Dockerfile
+- .dockerignore
+
+```bash
+docker build -t demo-node-16 .
+docker run -it -p 4000:3000  demo-node-16 
+```
+
+## Run docker images
+
+```bash
+docker run -it -p 4000:3000 demo-node-16
+```
+
+```bash
+docker run -it -e PORT=5000 -p 5001:5000 demo-node-16
+```
