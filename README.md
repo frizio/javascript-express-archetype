@@ -23,7 +23,6 @@ npm i -D nodemon
 
 ```bash
 docker build -t demo-node-16 .
-docker run -it -p 4000:3000  demo-node-16 
 ```
 
 ## Run docker images
@@ -34,4 +33,11 @@ docker run -it -p 4000:3000 demo-node-16
 
 ```bash
 docker run -it -e PORT=5000 -p 5001:5000 demo-node-16
+```
+
+## Work with docker-compose
+
+```bash
+docker-compose up --build
+docker-compose down --rmi all
 ```

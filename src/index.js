@@ -14,7 +14,7 @@ app.use(cors());
 // app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.send('<h1>Demo Express API!</h1>');
+  res.send('<h1>Demo Express API</h1>');
 });
 
 app.get('/api', (req, res) => {
