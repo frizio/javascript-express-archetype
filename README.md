@@ -28,11 +28,11 @@ docker build -t demo-node-16 .
 ## Run docker images
 
 ```bash
-docker run -it -p 4000:3000 demo-node-16
+docker run -it -p 4000:3000 node16-demo-api
 ```
 
 ```bash
-docker run -it -e PORT=5000 -p 5001:5000 demo-node-16
+docker run -it -e PORT=5000 -p 5001:5000 node16-demo-api
 ```
 
 ## Work with docker-compose
