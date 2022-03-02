@@ -22,17 +22,17 @@ npm i -D nodemon
 - .dockerignore
 
 ```bash
-docker build -t demo-node-16 .
+docker build -t node16-demo-api .
 ```
 
 ## Run docker images
 
 ```bash
-docker run -it -p 4000:3000 node16-demo-api
+docker run -it -p 4000:80 node16-demo-api
 ```
 
 ```bash
-docker run -it -e PORT=5000 -p 5001:5000 node16-demo-api
+docker run -it -e PORT=80 -p 5000:80 node16-demo-api
 ```
 
 ## Work with docker-compose

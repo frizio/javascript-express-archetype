@@ -1,6 +1,6 @@
 FROM node:16
 
-ENV PORT=5000
+ENV PORT=80
 
 WORKDIR /app
 
@@ -10,7 +10,7 @@ RUN npm install
 
 COPY . .
 
-EXPOSE 5000
+EXPOSE 80
 
 # CMD ["npm", "run", "dev-docker"]
 
