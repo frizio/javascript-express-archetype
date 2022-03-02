@@ -13,13 +13,11 @@ app.use(responseTime());
 app.use(cors());
 // app.use(express.json());
 
-app.get('/', (req, res) => {
-  res.send('<h1>Demo Express API</h1>');
-});
 
-app.get('/api', (req, res) => {
-  res.json({'nome': 'ciao'});
-});
+// Routes
+app.use('/', require('./routes/home.routes.js'));
+app.use('/api', require('./routes/api.routes.js'));
+
 
 app.listen(PORT);
 
